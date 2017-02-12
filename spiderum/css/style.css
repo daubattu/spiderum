@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #F2F2F2;
+}
+.clearfix {
+	clear: both;
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.down {
+	transform: translate(0px, -65px);
+}
+.up {
+	transform: translate(0px, 0px);
+}
+header {
+	background: white;
+	height: 93px;
+	transition: linear 0.1s;
+	transform: translate(0px, 0px);
+	position: fixed;
+ 	bottom: initial;
+ 	right: 0;
+  	left: 0;
+}
+header .container {
+	background: white;
+}
+header .header-top {
+	border-bottom: 1px solid #DDD;
+	height: 65px;
+}
+header .header-left {
+	height: 100%;
+	float: left;
+}
+header .header-left .logo {
+	position: relative;
+	float: left;
+	width: 160px;
+	height: 100%;
+}
+header .header-left img {
+	width: 160px;
+}
+header form	{
+	float: left;
+	height: 100%;
+	position: relative;
+	margin-left: 20px;
+}
+header form input[type="submit"] {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-indent: -9999px;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	outline: none;
+	background: transparent url('http://spiderum.com/assets/v2/images/icon_search.svg') center/24px no-repeat;
+}
+header form input[type="text"] {
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 50%;
+	transform: translate(25%, -50%);
+}
+header .header-right {
+	float: right;
+	height: 100%;
+}
+header .header-right .account {
+	list-style: none;
+}
+header .account {
+
+}
+header .account li {
+	float: left;
+	height: 100%;
+	margin-left: 10px;
+}
+
+header .account a {
+	text-decoration: none;
+	color: black;
+	line-height: 65px;
+}
+header .account .post {
+  	padding: 5px 20px;
+    background: #2fb5fa;
+  	border-radius: 20px;
+  	color: white;
+}
+
+header .menu ul {
+	list-style: none;
+}
+header .menu li {
+	padding: 5px 10px;
+	display: inline-block;
+}
+header .menu a {
+	text-decoration: none;
+	color: #34495e;
+}
+.wellcome {
+	padding-top: 93px;
+}
+.wellcome .container {
+  position: relative;
+  height: 350px;
+}
+.wellcome .block {
+  background: url(http://spiderum.com/assets/v2/images/categories/landing-bg.png) top -15px right/cover no-repeat;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.wellcome .block h1 {
+  margin-bottom: 10px;
+}
+.wellcome .block p {
+  margin-bottom: 15px;
+}
+.wellcome .block a {
+  padding: 10px 30px;
+  background: #309BD6;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+.wellcome .block a:hover {
+  background: #1e88e5;
+}
+.wellcome .main {
+	left: 0;
+	transform: translate(0, -50%);
+}
+
+.navtab_active {
+  background: white;
+  font-weight: bold;
+}
+navtab {
+  margin-right: 2%;
+  float: left;
+  width: 10%;
+}
+navtab ul{
+  list-style: none;
+}
+navtab li {
+  padding: 3px 0 3px 10px;
+}
+navtab li a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  margin-top: 20px;
+}
+main .post {
+  float: left;
+  width: 55%;
+  height: 1000px;
+  background: red;
+  margin-right: 2%;
+}
+.foru {
+	margin-top: 20px;
+}
+main .sidebar {
+  overflow: auto;
+}
+main .sidebar li {
+  margin-top: 15px;
+  display: block;
+}
+main .sidebar .thumb {
+  float: left;
+  width: 15%;
+  height: 100%;
+}
+main .sidebar #title {
+  font-size: 20px;
+  color: #99aac4;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d5d8dc;
+}
+main .sidebar h3 {
+  font-size: 16px;
+  font-weight: 100;
+  color: black;
+}
+main .sidebar li a {
+  text-decoration: none;
+}
+main .sidebar img {
+  width: 36px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+main .sidebar .post_sidebar {
+  padding-left: 15%;
+}
+.author_post {
+  font-size: 14px;
+  color: gray;
+}
+
+.special li {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background: green;
+}
+.special .block {
+  background: url(http://spiderum.com/assets/v2/images/categories/event-min.jpg) right/cover;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+.special .block1 {
+  background: url(http://spiderum.com/assets/v2/images/categories/film-min.jpg) right/cover;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+.special .block2 {
+  background: url(http://spiderum.com/assets/v2/images/categories/books-min.jpg) right/cover;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+.special #special_post {
+  position: absolute; 
+  bottom: 5px; 
+  left: 5px;
+  color: white;
+}
